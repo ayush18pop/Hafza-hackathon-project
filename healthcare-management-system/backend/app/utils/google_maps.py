@@ -1,6 +1,6 @@
 import requests
 
-GOOGLE_MAPS_API_KEY = "AIzaSyCTXX53Z7JgUVvMW4Cxy3wrpJt7rByKghg"
+GOOGLE_MAPS_API_KEY = "api_key"
 
 def get_nearby_hospitals(latitude, longitude):
     url = f"https://maps.googleapis.com/maps/api/place/nearbysearch/json"
